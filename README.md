@@ -7,58 +7,47 @@ The project performs data cleaning, enrichment, and analysis to generate visual 
 ### 🔍 Extraction
 
 - Fetches live country data (name, capital, population, region, currency, flags, etc.) from the REST Countries API.
-
 - Logs all extraction activities with error handling for failed requests.
 
 ### 🔄 Transformation
 
 - Normalizes nested JSON data using pandas.
-
 - Cleans missing values and standardizes fields like region and currency.
-
 - Calculates new fields such as population density and world population share.
 
 ### 💾 Loading
 
 - Loads processed data into an SQLite database with two relational tables:
-
 - countries → country-level information
-
 - currencies → currency details linked by country code
 
 ### 📊 Analysis & Visualization
 
 - Identifies Top 10 most populated countries and Top 5 most common currencies.
-
 - Displays population share by region using pie and bar charts.
-
 - Validates results using direct SQL queries on the database.
 
 ### 🧰 Tech Stack
 
 - Language: Python
-
 - Libraries: pandas, matplotlib, requests, sqlite3, logging
-
 - Database: SQLite
-
 - Data Source: [REST Countries API](https://restcountries.com/)
 
 
 ## ⚙️ How to Run
 
-### [Create a virtual environment if needed.](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
-### Clone the repository and navigate to the project folder.
-
-### Install dependencies:
+- ### [Create a virtual environment if needed.](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
+- ### Clone the repository and navigate to the project folder.
+  
+- ### Install dependencies:
 
 `pip install pandas matplotlib requests` 
 
 
-### Run the ETL pipeline:
+- ### Run the ETL pipeline:
 
 `python countries-api.py`
-
 
 ## Outputs generated:
 
@@ -70,6 +59,7 @@ The project performs data cleaning, enrichment, and analysis to generate visual 
 - `top10_population_share.png`
 - `population_share_by_region.png`
 - `top5_currencies.png`
+
 
 
 
