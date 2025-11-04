@@ -56,7 +56,7 @@ The project performs data cleaning, enrichment, and analysis to generate visual 
 
 ### Run the ETL pipeline:
 
-`python main.py`
+`python countries-api.py`
 
 
 ## Outputs generated:
@@ -69,5 +69,6 @@ The project performs data cleaning, enrichment, and analysis to generate visual 
 - `top10_population_share.png`
 - `population_share_by_region.png`
 - `top5_currencies.png`
+
 
 
