@@ -61,12 +61,13 @@ The project performs data cleaning, enrichment, and analysis to generate visual 
 
 ## Outputs generated:
 
-- Database: data.db
-- Log file: etl_pipeline.log
+- Database: `data.db`
+- Log file: `etl_pipeline.log`
 
 ## Charts:
 
-- top10_population_share.png
-- population_share_by_region.png
-- top5_currencies.png
+- `top10_population_share.png`
+- `population_share_by_region.png`
+- `top5_currencies.png`
+
 
