@@ -47,6 +47,7 @@ The project performs data cleaning, enrichment, and analysis to generate visual 
 
 ## ⚙️ How to Run
 
+### [Create a virtual environment if needed.](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/)
 ### Clone the repository and navigate to the project folder.
 
 ### Install dependencies:
@@ -69,6 +70,7 @@ The project performs data cleaning, enrichment, and analysis to generate visual 
 - `top10_population_share.png`
 - `population_share_by_region.png`
 - `top5_currencies.png`
+
 
 
 
